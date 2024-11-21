@@ -23,10 +23,15 @@ Install Starify via npm:
 
 ```bash
 npm install starify
-Usage
-Basic Example:
-javascript
-Copy code
+```
+
+---
+
+## Usage
+
+### Basic Example:
+
+```javascript
 import { Star, StarRatingProvider } from "starify";
 
 const App = () => (
@@ -40,46 +45,71 @@ const App = () => (
 );
 
 export default App;
-API Documentation
-Star Component Props
-Prop	Type	Default	Description
-star	Number	-	The star number in the sequence.
-size	String	'1em'	Font size for the star symbol.
-filledColor	String	'gold'	Color of filled stars.
-unfilledColor	String	'gray'	Color of unfilled stars.
-symbol	String	'★'	Symbol for stars.
-StarRatingProvider Props
-Prop	Type	Default	Description
-totalStars	Number	5	Total number of stars in the rating system.
-children	Node	-	React components wrapped by the provider.
-Accessibility
+```
+
+---
+
+## API Documentation
+
+### `Star` Component Props
+
+| Prop            | Type   | Default  | Description                      |
+| --------------- | ------ | -------- | -------------------------------- |
+| `star`          | Number | -        | The star number in the sequence. |
+| `size`          | String | `'1em'`  | Font size for the star symbol.   |
+| `filledColor`   | String | `'gold'` | Color of filled stars.           |
+| `unfilledColor` | String | `'gray'` | Color of unfilled stars.         |
+| `symbol`        | String | `'★'`    | Symbol for stars.                |
+
+### `StarRatingProvider` Props
+
+| Prop         | Type   | Default | Description                                 |
+| ------------ | ------ | ------- | ------------------------------------------- |
+| `totalStars` | Number | `5`     | Total number of stars in the rating system. |
+| `children`   | Node   | -       | React components wrapped by the provider.   |
+
+---
+
+## Accessibility
+
 Starify is designed with accessibility in mind:
 
-Includes ARIA roles for screen readers.
-Supports keyboard navigation with ArrowLeft, ArrowRight, and Enter.
-Testing
+- Includes ARIA roles for screen readers.
+- Supports keyboard navigation with `ArrowLeft`, `ArrowRight`, and `Enter`.
+
+---
+
+## Testing
+
 Run tests and check coverage:
 
-bash
-Copy code
+```bash
 npm test -- --coverage
-Contributing
+```
+
+---
+
+## Contributing
+
 We welcome contributions! Please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix:
-bash
-Copy code
-git checkout -b feature/my-feature
-Commit your changes:
-bash
-Copy code
-git commit -m "Add my feature"
-Push to your branch:
-bash
-Copy code
-git push origin feature/my-feature
-Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-```
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature/my-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add my feature"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/my-feature
+   ```
+5. Open a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
