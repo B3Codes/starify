@@ -1,8 +1,8 @@
 # Starify
 
 ![npm version](https://img.shields.io/npm/v/starify)
-![build status](https://img.shields.io/github/actions/workflow/status/yourusername/starify/ci.yml)
-![license](https://img.shields.io/github/license/yourusername/starify)
+![build status](https://img.shields.io/github/actions/workflow/status/B3Codes/starify/ci.yml)
+![license](https://img.shields.io/github/license/B3Codes/starify)
 
 **Starify** is a lightweight, customizable, and accessible React library for creating elegant star rating systems. Perfect for product reviews, blog comments, or any rating widget.
 
